@@ -56,8 +56,6 @@ public class SqicConfig {
     public boolean removeOverAwarded;
     
     public SqicConfig() {
-        //nesaUsername = "username";
-        //nesaPassword = "password";
         useProxy = false;
         proxyUsername = "proxyuser";
         proxyPassword = "proxypass";
@@ -67,15 +65,11 @@ public class SqicConfig {
         editIncidents = true;
         removeOverAwarded = true;
         logFile = "SqicSync%g.log";
-        //timeout = 10000;
         waitTime = 3000;
-        //calendarYear = 2017;
         logLevel = "ALL";
         sentralUsername = "first.last";
         sentralPassword = "password";
-        //uploadToSentral = false;
         sentralAddress = "http://web1.school-h.schools.nsw.edu.au/";
-        //getFromNesa = true;
         reportURL = "wellbeing/reports/incidents?report_id=849&orderby=date&sort=desc&page=all";
         overAwardedURL = "wellbeing/awards/over-awarded-nominations";
         incientViewUrl ="wellbeing/incidents/view?id=";

@@ -36,7 +36,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -50,7 +49,6 @@ import org.apache.commons.logging.LogFactory;
 import org.w3c.css.sac.CSSException;
 import org.w3c.css.sac.CSSParseException;
 import org.w3c.css.sac.ErrorHandler;
-import karmacop.liss4j.Student;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.Credentials;
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -88,7 +86,6 @@ public class Sqic {
     
     static HtmlPage mainPage;
     static HtmlPage framePage;
-    final static ArrayList<Student> students = new ArrayList<>();
     
     public static void main(String[] args) {
         
