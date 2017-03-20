@@ -80,7 +80,7 @@ public class SqicConfig {
         overAwardedURL = "wellbeing/awards/over-awarded-nominations";
         incientViewUrl ="wellbeing/incidents/view?id=";
         startFromIncident = 0;
-        connections = 10;
+        connections = 1;
     }
     
     //enum Levels {"ALL","INFO","WARNING","SEVERE"};
